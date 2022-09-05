@@ -157,17 +157,29 @@ void evilComputer(char (*a)[3], char *b)
         evilComputerModify(a);
         x = check(a);
         if (x == 1)
-        {
+        {   
+             system("cls");
+            printf("Player 1 : X\n");
+        printf("Player 2 : O\n\n");
+            display(a);
             printf("\nCongratulations , You Won\n");
             return;
         }
         else if (x == 2)
-        {
+        {  
+            system("cls");
+            printf("Player 1 : X\n");
+        printf("Player 2 : O\n\n");
+            display(a);
             printf("\nYou Lose\n");
             return;
         }
         else if (x == 3)
-        {
+        {  
+            system("cls");
+            printf("Player 1 : X\n");
+        printf("Player 2 : O\n\n");
+            display(a);
             printf("\nThere's a tie\n");
             return;
         }
